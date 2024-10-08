@@ -1,0 +1,17 @@
+{
+  "name": "prueba-cog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd frontend && pnpm install && cd ../backend && pnpm install",
+    "start": "concurrently \"cd frontend && pnpm dev\" \"cd backend && pnpm start\""
+  },
+  "keywords": [],
+  "author": "Adrián Pérez",
+  "license": "ISC",
+  "packageManager": "pnpm@9.7.1+sha256.46f1bbc8f8020aa9869568c387198f1a813f21fb44c82f400e7d1dbde6c70b40",
+  "dependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
